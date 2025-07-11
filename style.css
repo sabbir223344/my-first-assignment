@@ -1,0 +1,164 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4B4BFF;
+}
+
+.nav-btn {
+  background: #4B4BFF;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+.primary-btn {
+  background: #4B4BFF;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Video Preview */
+.video-preview {
+  background: #f8f8f8;
+}
+
+.preview-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.preview-flex .text {
+  max-width: 400px;
+}
+
+/* Stats */
+.stats {
+  background: #EEF1FF;
+  padding: 3rem 0;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.stats-box div h2 {
+  font-size: 2rem;
+  color: #4B4BFF;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #fff;
+  padding: 3rem 0;
+}
+
+.testimonials-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #F9F9F9;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+}
+
+/* Focus Section */
+.focus {
+  background: #f4f4f4;
+  padding: 3rem 0;
+}
+
+/* Contact */
+.contact {
+  padding: 3rem 0;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-flex .left {
+  flex: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-flex .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-flex input,
+.contact-flex textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  background: #f0f0f0;
+  padding: 2rem;
+  font-size: 14px;
+}
